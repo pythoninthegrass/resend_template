@@ -2,6 +2,10 @@
 
 This is a template for sending emails with [Resend](https://resend.com).
 
+Instead of hardcoding emails as inline HTML, you can use a Markdown file to customize the email content.
+
+It extends environment variables to read from both the `.env` file and the command line.
+
 ## Minimum Requirements
 
 * [python 3.11+](https://www.python.org/downloads/)
